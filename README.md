@@ -13,7 +13,10 @@ Elige un conjunto de datos que te interese: educación, deportes, trabajo, músi
 Busca una fuente para tus datos. Puedes usar una API de un portal de datos abiertos, un conjunto ya publicado, recopilar personalmente datos por scraping, etc.
 
 ## Documentación de los datos
-Documenta los datos que vas a usar y su origen. De dónde los has sacado, fuentes, etc. Describe los campos, los valores, las unidades, etc.
+
+En mi caso he extraido los datos de la web que nos recomendó Luis Miguel para encntrar numerosos datasets. Yo he elegido el dataset de carrera de F1, para ello he descargado el CSV de la siguiente URL.
+
+https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=races.csv
 
 ## Prepara tu aplicación.
 La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
