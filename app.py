@@ -40,3 +40,17 @@ if year != '':
 else:
     # Si el valor de entrada está vacío, mostrar un mensaje de error
     st.write('Introduce un año válido')
+
+# Definimos la interfaz de usuario usando Streamlit para recoger el nombre del circuito
+st.title("INFORMACIÓN DEL CIRCUITO")
+st.write("Seleccione un circuito para saber todos sus datos:")
+
+# Creamos un widget de selección de menú desplegable para el nombre del circuito
+circuit = st.selectbox('Circuito Seleccionado', df['name'].unique())
+
+# Filtramos los datos para mostrar solo los datos del circuito seleccionado
+filtered_data = df[df['name'] == circuit]
+
+# Mostramos los datos del circuito seleccionado
+st.write(filtered_data)
+
