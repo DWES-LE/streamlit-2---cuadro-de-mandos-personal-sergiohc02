@@ -34,4 +34,5 @@ Qué inputs y outputs tendrán tus datos.
 Prepara y prueba la aplicación.
 
 ## Publica la aplicación.
-Publica la aplicación en Streamlit Cloud, en Heroku o en el servicio que prefieras https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+
+Apliacación publicada con Streamlit Community Cloud en el siguiente enlace: https://sergiohc02-streamlit-2---cuadro-de-mandos-personal-s-app-x09jhe.streamlit.app/
